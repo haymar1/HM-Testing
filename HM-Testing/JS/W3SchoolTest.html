@@ -7,11 +7,18 @@
 </head>
 <body>
   <p id = 'id_name'></p>
+  <!-- document.write-->
+  <button type="button" onclick="document.write(5+5)">Click Me!</button>
   <script>
     //To access an HTML element, use the document.getElementById(id) method.
     //The id attribute defines the HTML element.
     // The innerHTML property defines the HTML content:
     document.getElementById('id_name').innerHTML = 5+5
+
+    //document.write() for output
+    document.write("Result = " + 5+5);
+
+
   </script>
 </body>
 </html>
